@@ -1,0 +1,529 @@
+body {
+    margin: 0;
+    font-family: 'Roboto';
+    
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url(ecriture/Roboto-Black.ttf);
+  }
+  @font-face {
+    font-family: 'Roboto-medium';
+    src: url(images/ecriture/Roboto-Regular.ttf);
+  }
+  @font-face {
+    font-family: 'shrik';
+    src: url(ecriture/Shrikhand-Regular.ttf);
+  }
+  .over{
+    position: relative;
+  }
+  .retour{
+    
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    color: black;
+    
+  }
+  .retour .fas{
+    
+    
+    font-size: 25px;
+    
+    color: #131114;
+    
+  }
+  .bloc-logo-oh{
+    background-color: rgb(233, 233, 233);
+    height: 90%;
+    
+    
+  }
+  .logo-oh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    
+  }
+  #logos-food{
+    width: 300px;
+    height: 50px;
+    margin-top: 10px;
+  }
+  .image-font{
+      width: 100%;
+      height: 400px;
+      min-height: 200px;
+      
+      overflow: hidden;
+      object-fit: cover;
+      
+      
+  }
+  #font{
+    width: 100%;
+    height: 600px;
+    margin-top: -200px;
+    
+  }
+  
+  .menu{
+      
+      position: relative;
+      height: 100%;
+      background-color: rgb(233, 233, 233);
+      border-radius: 30px 30px 0px 0px;
+      font-family: 'Roboto';
+      margin-top: -90px;
+      
+      
+
+  }
+  .blocs-palette-coeur{
+    width: 98%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  .palette-du-gout{
+      width: 90%;
+      height: 60px;
+      font-size: 30px;
+      margin-left: 20px;
+      font-family:'shrik' ;
+      margin-top: 10px;
+      
+  }
+  .fa-regular{
+    
+    color: black;
+    font-size: 30px; 
+
+  }
+  .change-coeur{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+  }
+  .fa-solid{
+    
+    position: absolute;
+    margin-top: -30px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image:linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+    font-size: 30px;
+    opacity: 0;
+    
+  }
+  .fa-solid :hover{
+    opacity: 1;
+
+  }
+  .change-coeur :hover{
+    opacity: 1;
+    transition-duration: 1s;
+  }
+  .entrées{
+      font-size: 25px;
+      height: 40px;
+      
+            
+  }
+  .bloc-titre{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .hr-t{
+    width: 60px;
+    height: 5px;
+    background-color: #99E2D0;
+    border-radius: 5px;
+
+  }
+  .bloc-menu-position{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+      
+  }
+  
+  .bloc-menu{
+      width: 33%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      
+  }
+  .bloc-plats{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        
+  }
+  .bloc-desserts{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+  }
+  .collone-entre{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 365px;
+      height: 300px;
+  }
+  .blocs{
+    overflow: hidden;    
+      width: 365px;
+      height: 60px;
+      border-radius: 20px;
+      background-color: whitesmoke;
+      box-shadow: 2px 5px 8px 4px rgba(8,8,8,0.4);
+      
+      
+       
+      
+  }
+  .blocs:hover .logo-anime{
+    width: 60px;
+    transition-duration: 0.8s;
+    overflow: hidden;
+
+  }
+  .blocs:hover .fas{
+    
+    transform: rotate(1080deg);
+    transition-duration: 1s;
+    
+    font-size: 30px;
+    transition-duration: 1.2s;
+    
+  }
+  .t-5{margin-top: 10px;
+  
+    margin-left: 20px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .t-3{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden; 
+  }
+  .t-4{
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+    font-family: 'Roboto-medium';
+  }
+  
+  .euro{
+    margin-top: 10px;
+    width: 40px;
+  }
+
+
+  .t-euro{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      
+      width: 365px;
+         
+    }
+  .animation{
+    
+      display: flex;
+      flex-direction: row;
+      height: 60px;     
+      border-radius: 0px 20px 20px 0px;
+      
+
+  }
+  .logo-anime{
+    
+    
+      width: 0px;
+      height: 100%;
+      background-color: #99E2D0;
+      border-radius: 0px 20px 20px 0px;
+      
+   
+      
+    }
+    .fas{
+      color: white;
+      font-size: 0px;
+      text-align: center;
+      width: 55px;
+      margin-top: 15px;
+      
+    }
+
+    .commande{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      background-color: rgb(233, 233, 233);
+    }
+    .bouton-commande{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 200px;
+      height: 50px;
+      border-radius: 20px;
+      margin-top: 60px;
+      background:linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+    }
+    .texte-commande{
+      margin-top: 15px;
+      color: white;
+    }
+    .footer-bloc{
+      display: flex;
+      flex-direction: column;
+      height: 110px;
+      background-color: rgb(33, 33, 33);
+      
+    }
+    .foot-row{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      color: white;
+      margin-top: 10px;
+      height: 70px;
+    }
+    .logo-white{
+      color: white;
+      font-size: 20px;
+      height: 50px;
+      margin-top: 10px;
+      margin-left: 80px;
+    }
+    .proposer-un-resto{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 200px;
+      
+    }
+    .devenir-partenaire{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 170px;
+         
+    }
+    .footer-bloc .fas{color: white;
+    font-size: 20px;
+    width: 30px;
+  margin-top: 0px;}
+
+  
+  
+    
+
+
+@keyframes bloc-one{
+    0% {
+        
+        opacity: .0;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+}
+.b-1{width: auto;height: auto;}
+.b-2{width: auto;height: auto;}
+.b-3{width: auto;height: auto;}
+.b-4{width: auto;height: auto;}
+.b-5{width: auto;height: auto;}
+.b-6{width: auto;height: auto;}
+.b-7{width: auto;height: auto;}
+.b-8{width: auto;height: auto;}
+.b-9{width: auto;height: auto;}
+
+
+.b-1{animation: bloc-one 2s;}
+.b-2{animation: bloc-one 2.4s;}
+.b-3{animation: bloc-one 2.8s;}
+.b-4{animation: bloc-one 3.2s;}
+.b-5{animation: bloc-one 3.6s;}
+.b-6{animation: bloc-one 4s;}
+.b-7{animation: bloc-one 4.4s;}
+.b-8{animation: bloc-one 4.8s;}
+.b-9{animation: bloc-one 5.2s;}
+
+@media screen and (max-width: 1200px)
+{
+.bloc-menu-position{
+display: flex;
+flex-direction: column;
+}
+.bloc-menu{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.bloc-plats{
+  width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+    
+}
+.bloc-desserts{
+  width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+
+}
+.collone-entre{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 300px;
+}
+.blocs{
+  width: 98%;
+  margin-left: 1%;
+}
+.t-euro{
+  width: 100%;
+}
+.entrées{
+  margin-left: 10px;
+}
+.hr-t{
+  margin-left: 10px;
+}
+
+}
+@media screen and (max-width: 657px)
+{
+  .footer-bloc{
+    height: 250px;
+  }
+  .foot-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    margin-top: 10px;
+    height: 170px;
+    text-align: center;
+  }
+  .proposer-un-resto{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    margin: auto;
+    height: 20px;
+    
+  }
+  .devenir-partenaire{
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    margin: auto;
+    height: 20px;
+       
+  }
+  .Mention{
+    margin: auto;
+  }
+  .Contact{
+    margin: auto;
+  }
+   
+}
+@media screen and (max-width: 550px)
+{
+
+  .image-font{
+    width: 100%;
+    height: 200px;
+    
+    
+    overflow: hidden;
+    
+    
+}
+#font{
+  width: 100%;
+  height: 300px;
+  margin-top: -100px;
+  object-fit: cover;
+  
+  
+}
+}
+@media screen and (max-width: 477px)
+{
+  #logos-food{
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  .retour{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .retour .fas{
+    
+    
+    font-size: 15px;
+    
+    color: #131114;
+    
+  }
+  .image-font{
+    
+    margin-top: 0px;
+    
+    
+}
+.bloc-logo-oh{
+  height: 40px;
+}
+
+}
+@media screen and (max-width: 351px)
+{
+  .palette-du-gout{
+    font-size: 20px;
+  }
+}
