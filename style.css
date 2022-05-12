@@ -1,797 +1,797 @@
 body {
-    margin: 0;
-    font-family: 'Roboto';
-  }
-  @font-face {
-    font-family: 'Roboto';
-    src: url(ecriture/Roboto-Medium.ttf);
-  }
-  @font-face {
-    font-family: 'Roboto-medium';
-    src: url(ecriture/Roboto-Regular.ttf);
-  }
-  @font-face {
-    font-family: 'Roboto-gras';
-    src: url(ecriture/Roboto-Black.ttf);
-  }
-  .bloc-logo-oh{
-    background-color: rgb(242, 240, 240);
-    height: 90%;
-    position: relative;
-    box-shadow: 0px 9px 10px 3px rgba(8,8,8,0.30)
-  }
-  .logo-oh{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 85%;
-    
-  }
-  #logos-food{
-    width: 300px;
-    height: 50px;
-    margin-top: 10px;
-  }
-  .recherche{
-    height: 100px;
-    width: 100%;
-    background-color: rgb(242, 240, 240);
-    display: flex;
-    justify-content: space-around;
-   
+  margin: 0;
+  font-family: 'Roboto';
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url(ecriture/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: 'Roboto-medium';
+  src: url(ecriture/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: 'Roboto-gras';
+  src: url(ecriture/Roboto-Black.ttf);
+}
+.bloc-logo-oh{
+  background-color: rgb(242, 240, 240);
+  height: 90%;
+  position: relative;
+  box-shadow: 0px 9px 10px 3px rgba(8,8,8,0.30)
+}
+.logo-oh{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 85%;
   
-  }
-  
-  input{
-    
-    margin-top: 30px;
-    height: 50px;
-    background-color: rgb(242, 240, 240);
-    border: 1px solid rgb(242, 240, 240);
-    
-     
-   }
-   
-   .position-recherche{
-     width: 160px;
-     height: 50px;
-     
-   }
-   .row-rech{
-     width: 180px;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-   }
-   .position-recherche .fas{
-     margin-top: 45px;
-     color: rgb(139, 139, 139);;
-   }
-  
-  nav{
-    width: 100%;
-    height: 240px;
-    background-color: rgb(242, 240, 240);
-  }
-  .parti-reservez{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 200px;
-  }
-  
-  .reservez{
-    font-size: 30px;
-    margin: auto;
-    font-family: 'Roboto-gras';
-  
-  }
-  .decouvrez{
-    font-size: 20px;
-    font-family: 'Roboto-medium';
-    margin: auto;
-  
-  }
-  .position-button{
-    margin: auto;
-    margin-top: 10px;
-     
-  }
-  
-  .position-button:hover {
-    
-    opacity: 0.9;
-     
-  
-  }
-  
-  .explorer-button{
-    width: 260px;
-    height: 40px;
-    font-size: 15px;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    background-image: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-    border-radius: 20px;
-    border: 1px solid black;
-    
-  }
-  
-  
-  .fonctionnement-bloc{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .colum-blocs-ensemle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    height: 200px;
-    transform: scale(1);
-  }
-  .anime-bloc{width: auto;height: auto;}
-  
-  .anime-bloc:hover
-  {
-    transform: scale(1);
-    background-color: rgb(255, 255, 255);
-    border-radius: 60px;
-    transition-duration: 0.2s;
-    box-shadow: 0px 0px 9px 5px rgba(8,8,8,0.42) 
-  }
-  
-  .fonctionnement{
-    width: 30%;
-    height: 30px;
-    font-family: 'Roboto-gras';
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .colum-blocs-fonction{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 100%;
-    
-  }
-  .numb{
-    position: absolute;
-    margin-left: -10px;
-    margin-top: 10px;
-    color: white;
-    background-color: violet;
-    border-radius: 60px;
-    width: 25px;
-    height: 25px;
-    padding: 5px 2px 0px 2px;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .bloc-choisissez-un-restaurant{
-    width: 350px;
-    height: 50px;
-    background-color: rgb(242, 240, 240); 
-    border-radius: 20px;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 5px 5px 5px gray;
-  }
-  
-  
-  .bloc-composez-votre-menu{
-    width: 350px;
-    height: 50px;
-    background-color: rgb(242, 240, 240);
-    border: 1px solid black;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 5px 5px 5px gray;
-  }
-  
-  
-  .bloc-degustez-au-restaurant{
-    width: 350px;
-    height: 50px;
-    background-color: rgb(242, 240, 240);
-    border: 1px solid black;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: row;
-    box-shadow: 5px 5px 5px gray; 
-  }
-  .center{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-  }
-  
-  
-  .marging{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 290px;
-    
-  }
-  main{
-  height: 700px;
-  }
-  
-  .restaurant{
-    width: 100%;
-    margin: auto;
-  }
-  .icon-restaurant{
-    font-size: 30px;
-    font-family: 'Roboto-gras';
-    height: 40px;
-    margin: auto;
-  }
-  .blocs-restaurant{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 640px;
-  }
-  .t-1{
-    font-size: 22px;
-    font-family: 'Roboto-gras';
-  }
-  
-  .t-2{
-    font-size: 18px;
-    
-  }
-  
-  .text-resto{
-    display: flex;
-    flex-direction: column;
-    justify-content:space-evenly;
-    height: 70px;
-    
-    
-  }
-  
-  .new-restaurant{
-    width: 650px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    cursor: pointer;
-    margin: auto;
-  }
-  .new-restaurant :hover{
-    transform-origin: 0%;
-    transform: scale(1.01);
-  } 
-  .la-palette{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid gray;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
-    }
-    .la-palette :hover{transform: none;}
-    
-    .la-note{
-      display: flex;
-      border: 1px solid gray;
-      display: flex;
-      flex-direction: column;
-      border-radius: 20px;
-      box-shadow: 5px 5px 5px gray;
-    }
-    .la-note :hover{ transform: none;}
-  
-  #palette{
-    width: 285px;
-    height: 190px;
-    border-radius: 20px 20px 0px 0px;
-  }
-  #note{
-    width: 285px;
-    height: 190px;
-    border-radius: 20px 20px 0px 0px;    
-  }
-  #france{
-    width: 285px;
-    height: 190px;
-    border-radius: 20px 20px 0px 0px;    
-  }
-  #délice{
-    width: 285px;
-    height: 190px;
-    border-radius: 20px 20px 0px 0px;        
-  }
-  
-  .old-restaurant{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 650px;
-    margin: auto;  
-  }
-  .old-restaurant :hover{
-    transform-origin: 0%;
-    transform: scale(1.01);
-  } 
-  
-  .la-francaise{
-    display: flex;
-    border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
-  }
-    .la-francaise :hover{transform: none;}
-  
-  .le-delice{
-    display: flex;
-    border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
-  }
-  .le-delice :hover{transform: none;}
-  
-  .footer-bloc{
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    background-color: rgb(0, 0, 0);
-  }
-  .foot-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
-    height: 100px;
-  }
-  .logo-white{
-    color: white;
-    font-size: 20px;
-    height: 50px;
-    margin-top: 10px;
-    margin-left: 80px;
-  }
-  .proposer-un-resto{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 186px;
-  }
-  .devenir-partenaire{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 156px;    
-  }
-  .fa-solid{
-    
-    position: absolute;
-    margin-top: -30px;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image:linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
-    font-size: 30px;
-    opacity: 0;  
-  }
-  .fa-solid :hover{
-    opacity: 1;
-  
-  }
-  
-  .fa-regular{
-    
-    color: black;
-    font-size: 30px; 
-  
-  }
-  .change-coeur{
-    height: 30px;
-    width: 30px;
-    margin-top: 20px;
-  }
-  .change-coeur :hover{
-    opacity: 1;
-    transition-duration: 1s;
-  }
-  .change-coeur:active{
-    opacity: 1;    
-    
-  }
-  
-  
-  .bloc-coeur-texte{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-  .new{
-    width: 285px;
-    height: 100px;
-    position: absolute;
-    border-radius: 20px;
-      
-  }
-  .nouveau{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    
-    margin-top: 30px;
-    margin-left: 140px;
-    
-    
-  }
-  .anime-new{
-    width: 100px;
-    height: 30px;
-    background-color: rgb(30, 138, 226);
-    transform-origin: 100% 0%;
-    border: 1px solid black;
-  }
-  
-  .la-palette:hover .anime-new{
-    
-    transition-duration: 1s;
-    transform-origin: 100% 0%;
-    animation: rotate 1.5s;
-    animation-fill-mode:forwards;
-    
-  }
-  .la-note:hover .anime-new{
-    transition-duration: 1s;
-    transform-origin: 100% 0%;
-    animation: rotate 1.5s;
-    animation-fill-mode:forwards;  
-  }
-  .t-new{
-    
-    color: white;
-    width: 100px;
-    height: 20px;
-    text-align: center;
-    margin-top: 5px;
-    
-  
-  }
-  @keyframes rotate {
-    0% {
-        
-  transform: rotate(0deg);
-    }
-  
-    50% {
-    transform: rotate(-110deg);
-    }
-    80%{
-    transform: rotate(-60deg);  
-    }
-    
-    90% {
-    transform: rotate(-80deg);
-    }
-    100%{
-    transform: rotate(-90deg); 
-  }
-    
-  }
-  .loader{
-  
-    height: 100%;
-    width: 100%;
-    background: white;
-    margin: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 20;
-    visibility: hidden;
-    animation: spinner 2s;
-    
-  }
-  @keyframes spinner {
-    0% {
-      visibility: visible;
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-      visibility: hidden;
-    }
-  }
-   
-  .position-cercle{
-   width: 220px;
-   height: 220px;
-   max-height: 100%;
-   max-width: 100%;
-   margin: auto;
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   
-  }
-   
-  .cercle{
-   height: 100%;
-   width: 100%;
-   border: 10px solid white;
-   border-radius: 180px;
-   border-top-color: #99E2D0;
-   border-bottom-color: #99E2D0;;
-   border-left-color:#9356dc;
-   border-right-color:#ff79da ;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-   animation: rotates 2s;
-   animation-fill-mode:forwards; 
-   
-  }
-  .mini-cercle{
-    margin: auto;
-    height: 150px;
-    width: 150px;
-    border: 10px solid white;
-    border-radius: 150px;
-    border-top-color: #99E2D0;
-    border-bottom-color: #99E2D0;;
-    border-left-color:#9356dc;
-    border-right-color:#ff79da ;
-    animation: rotates-1 2s;
-    animation-fill-mode:forwards;
-    position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;     
-  }
-  .mini-mini-cercle{
-    margin: auto;
-    height: 50px;
-    width: 50px;
-    border: 10px solid white;
-    border-radius: 50px;
-    border-top-color: #99E2D0;
-    border-bottom-color: #99E2D0;;
-    border-left-color:#9356dc;
-    border-right-color:#ff79da ;
-    animation: rotates-2 2s;
-    animation-fill-mode:forwards;
-    position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 0;
-  }
-   
-  @keyframes rotates{
-   0% {
-      
-    transform: rotate(0deg);
-   
-  }
-  
-   
-  100%{
-    transform: rotate(720deg);
-    
-   
-  }
-  
-  }
+}
+#logos-food{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+}
+.recherche{
+  height: 100px;
+  width: 100%;
+  background-color: rgb(242, 240, 240);
+  display: flex;
+  justify-content: space-around;
+ 
 
-  @keyframes rotates-1{
-    0% {
-       
-     transform: rotate(0deg);
-    
-   }
-   
-    
-   100%{
-     transform: rotate(1440deg);
-     
-    
-   }
-   
-   }
-   @keyframes rotates-2{
-    0% {
-       
-     transform: rotate(0deg);
-    
-   }
-   
-    
-   100%{
-     transform: rotate(2880deg);
-     
-    
-   }
-   
-   }
+}
 
-  @media screen and (max-width: 1230px)
+input{
+  
+  margin-top: 30px;
+  height: 50px;
+  background-color: rgb(242, 240, 240);
+  border: 1px solid rgb(242, 240, 240);
+  
+   
+ }
+ 
+ .position-recherche{
+   width: 160px;
+   height: 50px;
+   
+ }
+ .row-rech{
+   width: 180px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+ .position-recherche .fas{
+   margin-top: 45px;
+   color: rgb(139, 139, 139);;
+ }
+
+nav{
+  width: 100%;
+  height: 240px;
+  background-color: rgb(242, 240, 240);
+}
+.parti-reservez{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.reservez{
+  font-size: 30px;
+  margin: auto;
+  font-family: 'Roboto-gras';
+
+}
+.decouvrez{
+  font-size: 20px;
+  font-family: 'Roboto-medium';
+  margin: auto;
+
+}
+.position-button{
+  margin: auto;
+  margin-top: 10px;
+   
+}
+
+.position-button:hover {
+  
+  opacity: 0.9;
+   
+
+}
+
+.explorer-button{
+  width: 260px;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  border-radius: 20px;
+  border: 1px solid black;
+  
+}
+
+
+.fonctionnement-bloc{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+.colum-blocs-ensemle{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  transform: scale(1);
+}
+.anime-bloc{width: auto;height: auto;}
+
+.anime-bloc:hover
 {
-  .fonctionnement{
-    margin: auto;
+  transform: scale(1);
+  background-color: rgb(255, 255, 255);
+  border-radius: 60px;
+  transition-duration: 0.2s;
+  box-shadow: 0px 0px 9px 5px rgba(8,8,8,0.42) 
+}
+
+.fonctionnement{
+  width: 30%;
+  height: 30px;
+  font-family: 'Roboto-gras';
+  font-size: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.colum-blocs-fonction{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.numb{
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 10px;
+  color: white;
+  background-color: violet;
+  border-radius: 60px;
+  width: 25px;
+  height: 25px;
+  padding: 5px 2px 0px 2px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloc-choisissez-un-restaurant{
+  width: 350px;
+  height: 50px;
+  background-color: rgb(242, 240, 240); 
+  border-radius: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+.bloc-composez-votre-menu{
+  width: 350px;
+  height: 50px;
+  background-color: rgb(242, 240, 240);
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px gray;
+}
+
+
+.bloc-degustez-au-restaurant{
+  width: 350px;
+  height: 50px;
+  background-color: rgb(242, 240, 240);
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px gray; 
+}
+.center{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+
+.marging{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 290px;
+  
+}
+main{
+height: 700px;
+}
+
+.restaurant{
+  width: 100%;
+  margin: auto;
+}
+.icon-restaurant{
+  font-size: 30px;
+  font-family: 'Roboto-gras';
+  height: 40px;
+  margin: auto;
+}
+.blocs-restaurant{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 640px;
+}
+.t-1{
+  font-size: 22px;
+  font-family: 'Roboto-gras';
+}
+
+.t-2{
+  font-size: 18px;
+  
+}
+
+.text-resto{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  height: 70px;
+  
+  
+}
+
+.new-restaurant{
+  width: 650px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  cursor: pointer;
+  margin: auto;
+}
+.new-restaurant :hover{
+  transform-origin: 0%;
+  transform: scale(1.01);
+} 
+.la-palette{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
   }
-  .colum-blocs-ensemle{
-    width: 400px;
-    height: 300px;
-  }
-  .anime-bloc{
-    margin: auto;
-    width: auto;
-  }
-  .colum-blocs-fonction{
-    margin: auto;
+  .la-palette :hover{transform: none;}
+  
+  .la-note{
+    display: flex;
+    border: 1px solid gray;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 100%;
-    height: 200px;
-    
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px gray;
   }
-  .bloc-choisissez-un-restaurant{width: auto;}
-  .bloc-composez-votre-menu{width: auto;}
-  .bloc-degustez-au-restaurant{width: auto;}
+  .la-note :hover{ transform: none;}
+
+#palette{
+  width: 285px;
+  height: 190px;
+  border-radius: 20px 20px 0px 0px;
+}
+#note{
+  width: 285px;
+  height: 190px;
+  border-radius: 20px 20px 0px 0px;    
+}
+#france{
+  width: 285px;
+  height: 190px;
+  border-radius: 20px 20px 0px 0px;    
+}
+#délice{
+  width: 285px;
+  height: 190px;
+  border-radius: 20px 20px 0px 0px;        
+}
+
+.old-restaurant{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 650px;
+  margin: auto;  
+}
+.old-restaurant :hover{
+  transform-origin: 0%;
+  transform: scale(1.01);
+} 
+
+.la-francaise{
+  display: flex;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+  .la-francaise :hover{transform: none;}
+
+.le-delice{
+  display: flex;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px gray;
+}
+.le-delice :hover{transform: none;}
+
+.footer-bloc{
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  background-color: rgb(0, 0, 0);
+}
+.foot-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+  height: 100px;
+}
+.logo-white{
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 80px;
+}
+.proposer-un-resto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 186px;
+}
+.devenir-partenaire{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 156px;    
+}
+.fa-solid{
+  
+  position: absolute;
+  margin-top: -30px;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image:linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
+  font-size: 30px;
+  opacity: 0;  
+}
+.fa-solid :hover{
+  opacity: 1;
+
+}
+
+.fa-regular{
+  
+  color: black;
+  font-size: 30px; 
+
+}
+.change-coeur{
+  height: 30px;
+  width: 30px;
+  margin-top: 20px;
+}
+.change-coeur :hover{
+  opacity: 1;
+  transition-duration: 1s;
+}
+.change-coeur:active{
+  opacity: 1;    
+  
+}
+
+
+.bloc-coeur-texte{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.new{
+  width: 285px;
+  height: 100px;
+  position: absolute;
+  border-radius: 20px;
+    
+}
+.nouveau{
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  
+  margin-top: 30px;
+  margin-left: 140px;
+  
+  
+}
+.anime-new{
+  width: 100px;
+  height: 30px;
+  background-color: rgb(30, 138, 226);
+  transform-origin: 100% 0%;
+  border: 1px solid black;
+}
+
+.la-palette:hover .anime-new{
+  
+  transition-duration: 1s;
+  transform-origin: 100% 0%;
+  animation: rotate 1.5s;
+  animation-fill-mode:forwards;
+  
+}
+.la-note:hover .anime-new{
+  transition-duration: 1s;
+  transform-origin: 100% 0%;
+  animation: rotate 1.5s;
+  animation-fill-mode:forwards;  
+}
+.t-new{
+  
+  color: white;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin-top: 5px;
+  
+
+}
+@keyframes rotate {
+  0% {
+      
+transform: rotate(0deg);
+  }
+
+  50% {
+  transform: rotate(-110deg);
+  }
+  80%{
+  transform: rotate(-60deg);  
+  }
+  
+  90% {
+  transform: rotate(-80deg);
+  }
+  100%{
+  transform: rotate(-90deg); 
+}
+  
+}
+.loader{
+
+  height: 100%;
+  width: 100%;
+  background: white;
+  margin: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  visibility: hidden;
+  animation: spinner 2s;
+  
+}
+@keyframes spinner {
+  0% {
+    visibility: visible;
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+ 
+.position-cercle{
+ width: 220px;
+ height: 220px;
+ max-height: 100%;
+ max-width: 100%;
+ margin: auto;
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ 
+}
+ 
+.cercle{
+ height: 100%;
+ width: 100%;
+ border: 10px solid white;
+ border-radius: 180px;
+ border-top-color: #99E2D0;
+ border-bottom-color: #99E2D0;;
+ border-left-color:#9356dc;
+ border-right-color:#ff79da ;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ animation: rotates 2s;
+ animation-fill-mode:forwards; 
+ 
+}
+.mini-cercle{
+  margin: auto;
+  height: 150px;
+  width: 150px;
+  border: 10px solid white;
+  border-radius: 150px;
+  border-top-color: #99E2D0;
+  border-bottom-color: #99E2D0;;
+  border-left-color:#9356dc;
+  border-right-color:#ff79da ;
+  animation: rotates-1 2s;
+  animation-fill-mode:forwards;
+  position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;     
+}
+.mini-mini-cercle{
+  margin: auto;
+  height: 50px;
+  width: 50px;
+  border: 10px solid white;
+  border-radius: 50px;
+  border-top-color: #99E2D0;
+  border-bottom-color: #99E2D0;;
+  border-left-color:#9356dc;
+  border-right-color:#ff79da ;
+  animation: rotates-2 2s;
+  animation-fill-mode:forwards;
+  position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+ 
+@keyframes rotates{
+ 0% {
+    
+  transform: rotate(0deg);
+ 
+}
+
+ 
+100%{
+  transform: rotate(720deg);
+  
+ 
+}
+
+}
+
+@keyframes rotates-1{
+  0% {
+     
+   transform: rotate(0deg);
+  
+ }
+ 
+  
+ 100%{
+   transform: rotate(1440deg);
+   
+  
+ }
+ 
+ }
+ @keyframes rotates-2{
+  0% {
+     
+   transform: rotate(0deg);
+  
+ }
+ 
+  
+ 100%{
+   transform: rotate(2880deg);
+   
+  
+ }
+ 
+ }
+
+@media screen and (max-width: 1230px)
+{
+.fonctionnement{
+  margin: auto;
+}
+.colum-blocs-ensemle{
+  width: 400px;
+  height: 300px;
+}
+.anime-bloc{
+  margin: auto;
+  width: auto;
+}
+.colum-blocs-fonction{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 200px;
+  
+}
+.bloc-choisissez-un-restaurant{width: auto;}
+.bloc-composez-votre-menu{width: auto;}
+.bloc-degustez-au-restaurant{width: auto;}
 }
 @media screen and (max-width: 661px)
 {
-  main{
-    height: auto;
-  }
-  .restaurant{
-    margin: auto;
-  }
-  .blocs-restaurant{
-    height: 90%;
-  }
-  .new-restaurant{
-    flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
-    width: 100%;
-    margin: auto;
-  }
-  .la-palette{
-    width: 9cm;
-    height: 7cm;
-    margin: auto;
-  }
-  #palette{
-    width: 100%;
-  }
-  .la-note{
-    width: 9cm;
-    height: 7cm;
-    margin: auto;  
-  }
-  #note{
-    width: 100%;
-  }
-  .old-restaurant{
-    flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
-    width: 100%;
-  }
-  .la-francaise{
-    width: 9cm;
-    height: 7cm;
-    margin: auto;
-  }
-  #france{
-    width: 100%;
-  }
-  .le-delice{
-    width: 9cm;
-    height: 7cm;
-    margin: auto;    
-  }
-  #délice{
-    width: 100%;
-  }
+main{
+  height: auto;
+}
+.restaurant{
+  margin: auto;
+}
+.blocs-restaurant{
+  height: 90%;
+}
+.new-restaurant{
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+}
+.la-palette{
+  width: 9cm;
+  height: 7cm;
+  margin: auto;
+}
+#palette{
+  width: 100%;
+}
+.la-note{
+  width: 9cm;
+  height: 7cm;
+  margin: auto;  
+}
+#note{
+  width: 100%;
+}
+.old-restaurant{
+  flex-direction: column;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+}
+.la-francaise{
+  width: 9cm;
+  height: 7cm;
+  margin: auto;
+}
+#france{
+  width: 100%;
+}
+.le-delice{
+  width: 9cm;
+  height: 7cm;
+  margin: auto;    
+}
+#délice{
+  width: 100%;
+}
 
 }
 @media screen and (max-width: 596px)
 {
-  .decouvrez{
-    width: 90%;
-  }
+.decouvrez{
+  width: 90%;
+}
 }
 @media screen and (max-width: 552px)
 {
-  .foot-row{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    height: 150px;
-  }
-  .footer-bloc{
-    height: 200px;
-  }
+.foot-row{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 150px;
+}
+.footer-bloc{
+  height: 200px;
+}
 }
 @media screen and (max-width: 506px)
 {
-  .reservez{
-    width: 90%;
-  }
+.reservez{
+  width: 90%;
+}
 }
 @media screen and (max-width: 425px)
 {
-  .decouvrez{
-    margin-top: 20px;
-  }
-  .position-button{
-    margin-top: 20px;
-  }
+.decouvrez{
+  margin-top: 20px;
+}
+.position-button{
+  margin-top: 20px;
+}
 }
 
 @media screen and (max-width: 365px)
 {
-  .la-palette{
-    width: 95%;
-    height: 7cm;
-    margin: auto;
-  }
-  #palette{
-    width: 100%;
-  }
-  .la-note{
-    width: 95%;
-    height: 7cm;
-    margin: auto;  
-  }
-  #note{
-    width: 100%;
-  }
-  .la-francaise{
-    width: 95%;
-    height: 7cm;
-    margin: auto;
-  }
-  #france{
-    width: 100%;
-  }
-  .le-delice{
-    width: 95%;
-    height: 7cm;
-    margin: auto;    
-  }
-  #délice{
-    width: 100%;
-  }  
+.la-palette{
+  width: 95%;
+  height: 7cm;
+  margin: auto;
+}
+#palette{
+  width: 100%;
+}
+.la-note{
+  width: 95%;
+  height: 7cm;
+  margin: auto;  
+}
+#note{
+  width: 100%;
+}
+.la-francaise{
+  width: 95%;
+  height: 7cm;
+  margin: auto;
+}
+#france{
+  width: 100%;
+}
+.le-delice{
+  width: 95%;
+  height: 7cm;
+  margin: auto;    
+}
+#délice{
+  width: 100%;
+}  
 }
 
 @media screen and (max-width: 364px)
 {
-  .loader{
-    width: auto;
-    height: auto;
-  }
+.loader{
+  width: auto;
+  height: auto;
+}
 }
