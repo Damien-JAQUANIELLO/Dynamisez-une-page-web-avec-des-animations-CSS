@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto-medium';
 }
 @font-face {
   font-family: 'Roboto';
@@ -13,6 +13,14 @@ body {
 @font-face {
   font-family: 'Roboto-gras';
   src: url(ecriture/Roboto-Black.ttf);
+}
+@font-face {
+  font-family:'shrik';
+  src: url(ecriture/Shrikhand-Regular.ttf);
+}
+a{
+  text-decoration: none;
+  color: initial;
 }
 .bloc-logo-oh{
   background-color: rgb(242, 240, 240);
@@ -31,6 +39,7 @@ body {
   width: 300px;
   height: 50px;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .recherche{
   height: 100px;
@@ -83,18 +92,22 @@ nav{
 .reservez{
   font-size: 30px;
   margin: auto;
-  font-family: 'Roboto-gras';
+  font-family: 'Roboto';
+  width: 90%;
+  text-align: center;
 
 }
 .decouvrez{
   font-size: 20px;
   font-family: 'Roboto-medium';
   margin: auto;
+  width: 90%;
+  text-align: center;
 
 }
 .position-button{
   margin: auto;
-  margin-top: 10px;
+  margin-top: 20px;
    
 }
 
@@ -114,7 +127,6 @@ nav{
   justify-content: space-around;
   background-image: linear-gradient(180deg, #ff79da 0%, #9356dc 100%);
   border-radius: 20px;
-  border: 1px solid black;
   
 }
 
@@ -141,13 +153,16 @@ nav{
   background-color: rgb(255, 255, 255);
   border-radius: 60px;
   transition-duration: 0.2s;
-  box-shadow: 0px 0px 9px 5px rgba(8,8,8,0.42) 
+  box-shadow: 0px 0px 9px 5px rgb(0, 0, 0) 
+}
+.anime-bloc:hover .center{
+  color: #9356dc;
 }
 
 .fonctionnement{
   width: 30%;
   height: 30px;
-  font-family: 'Roboto-gras';
+  font-family: 'Roboto';
   font-size: 30px;
   display: flex;
   justify-content: space-around;
@@ -179,7 +194,6 @@ nav{
   height: 50px;
   background-color: rgb(242, 240, 240); 
   border-radius: 20px;
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   box-shadow: 5px 5px 5px gray;
@@ -190,7 +204,6 @@ nav{
   width: 350px;
   height: 50px;
   background-color: rgb(242, 240, 240);
-  border: 1px solid black;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -202,7 +215,6 @@ nav{
   width: 350px;
   height: 50px;
   background-color: rgb(242, 240, 240);
-  border: 1px solid black;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -212,6 +224,8 @@ nav{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  width: 80%;
+  margin-left: 8%;
 }
 
 
@@ -232,7 +246,7 @@ height: 700px;
 }
 .icon-restaurant{
   font-size: 30px;
-  font-family: 'Roboto-gras';
+  font-family: 'Roboto';
   height: 40px;
   margin: auto;
 }
@@ -244,7 +258,7 @@ height: 700px;
 }
 .t-1{
   font-size: 22px;
-  font-family: 'Roboto-gras';
+  font-family: 'Roboto';
 }
 
 .t-2{
@@ -276,7 +290,6 @@ height: 700px;
 .la-palette{
   display: flex;
   flex-direction: column;
-  border: 1px solid gray;
   border-radius: 20px;
   box-shadow: 5px 5px 5px gray;
   }
@@ -284,7 +297,6 @@ height: 700px;
   
   .la-note{
     display: flex;
-    border: 1px solid gray;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
@@ -327,8 +339,6 @@ height: 700px;
 
 .la-francaise{
   display: flex;
-  border: 1px solid gray;
-  display: flex;
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 5px 5px 5px gray;
@@ -336,8 +346,6 @@ height: 700px;
   .la-francaise :hover{transform: none;}
 
 .le-delice{
-  display: flex;
-  border: 1px solid gray;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -349,7 +357,8 @@ height: 700px;
   display: flex;
   flex-direction: column;
   height: 150px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(47, 47, 47);
+  margin-top: 30px;
 }
 .foot-row{
   display: flex;
@@ -361,9 +370,11 @@ height: 700px;
 .logo-white{
   color: white;
   font-size: 20px;
-  height: 50px;
-  margin-top: 10px;
+  height: 60px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: 80px;
+  font-family: 'shrik' ;
 }
 .proposer-un-resto{
   display: flex;
@@ -388,9 +399,10 @@ height: 700px;
   font-size: 30px;
   opacity: 0;  
 }
-.fa-solid :hover{
+.fa-solid:hover{
   opacity: 1;
-
+  transition-duration: 0.5s;
+  
 }
 
 .fa-regular{
@@ -404,15 +416,6 @@ height: 700px;
   width: 30px;
   margin-top: 20px;
 }
-.change-coeur :hover{
-  opacity: 1;
-  transition-duration: 1s;
-}
-.change-coeur:active{
-  opacity: 1;    
-  
-}
-
 
 .bloc-coeur-texte{
   display: flex;
@@ -420,51 +423,31 @@ height: 700px;
   justify-content: space-around;
 }
 .new{
-  width: 285px;
+  width: 280px;
   height: 100px;
   position: absolute;
+  
   border-radius: 20px;
     
 }
 .nouveau{
   position: absolute;
   width: 100px;
-  height: 30px;
+  height: 35px;
+  background-color: rgb(108, 217, 180);
   
-  margin-top: 30px;
-  margin-left: 140px;
+  margin-top: 20px;
+  margin-left: 60%;
   
   
-}
-.anime-new{
-  width: 100px;
-  height: 30px;
-  background-color: rgb(30, 138, 226);
-  transform-origin: 100% 0%;
-  border: 1px solid black;
-}
-
-.la-palette:hover .anime-new{
-  
-  transition-duration: 1s;
-  transform-origin: 100% 0%;
-  animation: rotate 1.5s;
-  animation-fill-mode:forwards;
-  
-}
-.la-note:hover .anime-new{
-  transition-duration: 1s;
-  transform-origin: 100% 0%;
-  animation: rotate 1.5s;
-  animation-fill-mode:forwards;  
 }
 .t-new{
   
-  color: white;
+  color: rgb(26, 26, 26);
   width: 100px;
   height: 20px;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 8px;
   
 
 }
@@ -716,42 +699,61 @@ main{
 #délice{
   width: 100%;
 }
+.new{
+  
+  height: 100px;
+  position: absolute;
+  width: 340px;
+  
+  border-radius: 20px;
+    
+}
+.nouveau{
+  position: absolute;
+  width: 100px;
+  height: 35px;
+  background-color: rgb(108, 217, 180);
+  
+  margin-top: 20px;
+  
+  
+  
+}
+.t-new{
+  
+  color: rgb(26, 26, 26);
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  margin-top: 8px;
+  
 
 }
-@media screen and (max-width: 596px)
-{
-.decouvrez{
-  width: 90%;
+#logos-food{
+  width: 50%;
+  height: 50%;
 }
+
 }
+
 @media screen and (max-width: 552px)
 {
+  .footer-bloc{
+    height: 280px;
+  }
 .foot-row{
   display: flex;
   flex-direction: column;
-  margin: auto;
+  margin-left: 30px;
   height: 150px;
 }
-.footer-bloc{
-  height: 200px;
+.logo-white{
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  height: 40px;
 }
 }
-@media screen and (max-width: 506px)
-{
-.reservez{
-  width: 90%;
-}
-}
-@media screen and (max-width: 425px)
-{
-.decouvrez{
-  margin-top: 20px;
-}
-.position-button{
-  margin-top: 20px;
-}
-}
-
 @media screen and (max-width: 365px)
 {
 .la-palette{
@@ -785,13 +787,14 @@ main{
 }
 #délice{
   width: 100%;
-}  
 }
-
-@media screen and (max-width: 364px)
-{
-.loader{
-  width: auto;
-  height: auto;
-}
+.new{
+  
+  height: 100px;
+  position: absolute;
+  width: 90%;
+  
+  border-radius: 20px;
+    
+}   
 }
