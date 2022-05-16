@@ -652,11 +652,11 @@ main{
   margin: auto;
 }
 .blocs-restaurant{
-  height: 90%;
+  height: 100%;
 }
 .new-restaurant{
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 600px;
   width: 100%;
   margin: auto;
@@ -679,7 +679,7 @@ main{
 }
 .old-restaurant{
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 600px;
   width: 100%;
 }
