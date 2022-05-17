@@ -163,6 +163,9 @@ nav{
 .anime-bloc:hover .center{
   color: #9356dc;
 }
+.anime-bloc:hover .fas{
+  color: #9356dc;  
+}
 
 .fonctionnement{
   width: 30%;
@@ -195,7 +198,7 @@ nav{
 }
 
 .bloc-choisissez-un-restaurant{
-  width: 350px;
+  width: 100%;
   height: 60px;
   background-color: rgb(253, 253, 253);
   border-radius: 20px;
@@ -206,10 +209,12 @@ nav{
 .bloc-choisissez-un-restaurant:hover{
   background-color: #f6f2fb;  
 }
-
+.bloc-choisissez-un-restaurant .fas{
+  color: gray;
+}
 
 .bloc-composez-votre-menu{
-  width: 350px;
+  width: 100%;
   height: 60px;
   background-color: rgb(253, 253, 253);
   border-radius: 20px;
@@ -220,10 +225,13 @@ nav{
 .bloc-composez-votre-menu:hover{
   background-color: #f6f2fb;  
 }
+.bloc-composez-votre-menu .fas{
+  color: gray;
+}
 
 
 .bloc-degustez-au-restaurant{
-  width: 350px;
+  width: 100%;
   height: 60px;
   background-color: rgb(253, 253, 253);
   border-radius: 20px;
@@ -233,6 +241,9 @@ nav{
 }
 .bloc-degustez-au-restaurant:hover{
   background-color: #f6f2fb;
+}
+.bloc-degustez-au-restaurant .fas{
+  color: gray;  
 }
 
 .center{
@@ -248,7 +259,7 @@ nav{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 290px;
+  width: 380px;
   
 }
 main{
@@ -304,7 +315,7 @@ height: 700px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 1px 10px 1px rgba(110,110,110,0.8)
   }
   .la-palette :hover{transform: none;}
   
@@ -313,7 +324,7 @@ height: 700px;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 0px 1px 10px 1px rgba(110,110,110,0.8)
   }
   .la-note :hover{ transform: none;}
 
@@ -354,7 +365,7 @@ height: 700px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 1px 10px 1px rgba(110,110,110,0.8)
 }
   .la-francaise :hover{transform: none;}
 
@@ -362,7 +373,7 @@ height: 700px;
   display: flex;
   flex-direction: column;
   border-radius: 20px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 0px 1px 10px 1px rgba(110,110,110,0.8)
 }
 .le-delice :hover{transform: none;}
 
@@ -371,7 +382,7 @@ height: 700px;
   flex-direction: column;
   height: 150px;
   background-color: rgb(47, 47, 47);
-  margin-top: 30px;
+  
 }
 .foot-row{
   display: flex;
@@ -632,6 +643,9 @@ transform: rotate(0deg);
 
 @media screen and (max-width: 1230px)
 {
+
+
+
 .fonctionnement{
   margin: auto;
 }
@@ -667,25 +681,34 @@ main{
 }
 .restaurant{
   margin: auto;
+  height: 100%;
+  margin-top: 70px;
+  background-color:#f6f2fb
 }
 .blocs-restaurant{
   height: 100%;
-  margin-top: 50px;
+  width: 96%;
+  margin: auto;
+  margin-top: 20px;
+  
 }
 .icon-restaurant{
-  margin-left: 20px;
+  margin-left: 10px;
   font-size: 26px;
+  margin-top: 70px;
 }
 .colum-blocs-ensemle{
   height: 320px;
   margin-top: 40px;
+  width: 100%;
 }
 .fonctionnement-bloc{
   height: 100%;
 }
 .fonctionnement{
-  margin-left: 60px;
+  margin-left: 18px;
   font-size: 26px;
+  width: 190px;
 }
 .new-restaurant{
   flex-direction: column;
@@ -715,7 +738,9 @@ main{
   justify-content: space-around;
   height: 600px;
   width: 100%;
+  margin-bottom: 50px;
 }
+
 .la-francaise{
   width: 9cm;
   height: 7cm;
@@ -797,14 +822,17 @@ main{
   width: 95%;
   height: 7cm;
   margin: auto;
+  background-color: white
 }
 #palette{
   width: 100%;
+
 }
 .la-note{
   width: 95%;
   height: 7cm;
-  margin: auto;  
+  margin: auto;
+  background-color: white  
 }
 #note{
   width: 100%;
@@ -813,6 +841,7 @@ main{
   width: 95%;
   height: 7cm;
   margin: auto;
+  background-color: white
 }
 #france{
   width: 100%;
@@ -820,7 +849,8 @@ main{
 .le-delice{
   width: 95%;
   height: 7cm;
-  margin: auto;    
+  margin: auto;
+  background-color: white    
 }
 #délice{
   width: 100%;
@@ -833,5 +863,12 @@ main{
   
   border-radius: 20px;
     
-}   
+}
+.anime-bloc{
+  width: 92%;
+  margin: auto;
+}
+.marging{
+  width: 100%;
+}
 }
