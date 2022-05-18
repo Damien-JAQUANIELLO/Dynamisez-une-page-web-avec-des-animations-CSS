@@ -64,20 +64,18 @@ body {
   margin-top: 10px;
 }
 .image-font{
-    width: 100%;
-    height: 350px;
-    
-    
-    overflow: hidden;
-    object-fit: cover;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  object-fit: cover;
     
     
 }
 #font{
   width: 100%;
-  height: 550px;
-  object-fit:cover;
-  margin-top: -200px;
+    height: 550px;
+    object-fit: cover;
+    margin-top: -197px;
     
 }
 
@@ -334,7 +332,7 @@ margin-bottom: auto;
     display: flex;
     flex-direction: column;
     height: 110px;
-    background-color: rgb(33, 33, 33);
+    background-color: rgb(64 64 64);
     
   }
   .foot-row{
@@ -380,6 +378,9 @@ margin-top: 0px;}
   0% {
       
       opacity: .0;
+  }
+  30% {
+    opacity: 0.1;
   }  
   100% {
       opacity: 1;
@@ -400,16 +401,16 @@ margin-top: 0px;}
 .b-xx{width: auto;height: auto;}
 
 
-.b-1{animation: bloc-one 0.3s;}
-.b-2{animation: bloc-one 0.6s;}
-.b-3{animation: bloc-one 0.9s;}
-.b-4{animation: bloc-one 1.9s;}
-.b-5{animation: bloc-one 2.2s;}
-.b-6{animation: bloc-one 2.5s;}
-.b-7{animation: bloc-one 3.5s;}
-.b-8{animation: bloc-one 3.8s;}
-.b-9{animation: bloc-one 4.1s;}
-.b-xx{animation: bloc-one 1.2s;}
+.b-1{animation: bloc-one 0.8s;}
+.b-2{animation: bloc-one 1.4s;}
+.b-3{animation: bloc-one 2s;}
+.b-4{animation: bloc-one 2.6s;}
+.b-5{animation: bloc-one 3.2s;}
+.b-6{animation: bloc-one 3.8s;}
+.b-7{animation: bloc-one 4.4s;}
+.b-8{animation: bloc-one 5s;}
+.b-9{animation: bloc-one 5.6s;}
+.b-xx{animation: bloc-one 2.2s;}
 
 @media screen and (max-width: 1200px)
 {
@@ -506,20 +507,16 @@ margin-left: 10px;
 }
 .image-font{
   width: 100%;
-  height: 400px;
-  
-  
-  overflow: hidden;
-  object-fit: cover;
+    height: 266px;
+    overflow: hidden;
   
   
 }
 #font{
-width: 100%;
-height: 450px;
-margin-top: -50px;
-
-object-fit: cover;
+  width: 100%;
+    height: 206px;
+    margin-top: -5px;
+    object-fit: cover;
 
 
 }
