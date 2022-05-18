@@ -28,11 +28,12 @@ a{
   color: initial;
 }
 .bloc-logo-oh{
-  background-color: rgb(242, 240, 240);
+  background-color: white;
   height: 90%;
   position: relative;
-  box-shadow: 0px 1px 6px 1px rgba(110,110,110,0.8)
+  box-shadow: 0px 0.3px 6px 0.3px rgba(110,110,110,0.8)
 }
+
 .logo-oh{
   display: flex;
   flex-direction: row;
@@ -49,7 +50,7 @@ a{
 .recherche{
   height: 60px;
   width: 100%;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(236, 236, 236);
   display: flex;
   justify-content: space-around;
  
@@ -59,11 +60,16 @@ a{
 input{
   
   height: 50px;
-  background-color: rgb(226, 226, 226);
-  border: 1px solid rgb(226, 226, 226);    
+  background-color: rgb(236, 236, 236);
+  border: 1px solid rgb(236, 236, 236);    
  }
  #searchh{
    width: 110px;
+   
+ }
+ ::placeholder{
+   color: black;
+   font-family: 'Roboto';
  }
 
  .position-recherche{
@@ -79,13 +85,13 @@ input{
  }
  .position-recherche .fas{
    margin-top: 16px;
-   color: rgb(87, 87, 87);;
+   color: black;
  }
 
 nav{
   width: 100%;
-  height: 340px;
-  background-color: rgb(242, 240, 240);
+  height: 320px;
+  background-color: rgb(245, 245, 245);
 }
 .parti-reservez{
   display: flex;
@@ -142,6 +148,7 @@ nav{
   height: 300px;
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 .colum-blocs-ensemle{
   display: flex;
@@ -168,12 +175,13 @@ nav{
 }
 
 .fonctionnement{
-  width: 30%;
+  width: 8%;
   height: 30px;
   font-family: 'Roboto';
   font-size: 30px;
   display: flex;
   justify-content: space-around;
+  margin: auto;
 }
 
 .colum-blocs-fonction{
@@ -188,7 +196,7 @@ nav{
   margin-left: -12px;
   margin-top: 15px;
   color: white;
-  background-color: violet;
+  background-color: #9356dc;
   border-radius: 60px;
   width: 25px;
   height: 25px;
@@ -269,11 +277,12 @@ height: 700px;
 .restaurant{
   width: 100%;
   margin: auto;
+  margin-top: 50px;
 }
 .icon-restaurant{
   font-size: 30px;
   font-family: 'Roboto';
-  height: 40px;
+  height: 30px;
   margin: auto;
 }
 .blocs-restaurant{
@@ -446,32 +455,36 @@ height: 700px;
   flex-direction: row;
   justify-content: space-around;
 }
+
 .new{
-  width: 280px;
-  height: 100px;
+  display: flex;
+  flex-direction: row;
   position: absolute;
+  width: 285px;
   
-  border-radius: 20px;
-    
+ 
 }
 .nouveau{
-  position: absolute;
-  width: 100px;
+  
+  width: 50%;
   height: 35px;
-  background-color: rgb(108, 217, 180);
-  
-  margin-top: 20px;
-  margin-left: 60%;
-  
+  display: flex;
   
 }
-.t-new{
+.nouveau-droite{
+  display: flex;
+  width: 50%;
+}
+.t-new{ 
   
   color: rgb(26, 26, 26);
-  width: 100px;
+  width: 50%;
   height: 20px;
   text-align: center;
-  margin-top: 8px;
+  background-color: rgb(108, 217, 180);
+  margin: auto;
+  padding: 5px;
+  margin-top: 10px;
   
 
 }
@@ -672,7 +685,12 @@ transform: rotate(0deg);
 }
 @media screen and (max-width: 661px)
 {
-
+.bloc-logo-oh{
+  height: 70px;
+}
+#logos-food{
+  margin-top: 25px;
+}
 .position-button{
   margin-top: 30px;
 }
@@ -683,7 +701,7 @@ main{
   margin: auto;
   height: 100%;
   margin-top: 70px;
-  background-color:#f6f2fb
+  background-color:rgb(245, 245, 245);
 }
 .blocs-restaurant{
   height: 100%;
@@ -695,7 +713,8 @@ main{
 .icon-restaurant{
   margin-left: 10px;
   font-size: 26px;
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .colum-blocs-ensemle{
   height: 320px;
@@ -704,6 +723,7 @@ main{
 }
 .fonctionnement-bloc{
   height: 100%;
+  margin-top: 0px;
 }
 .fonctionnement{
   margin-left: 18px;
@@ -713,7 +733,7 @@ main{
 .new-restaurant{
   flex-direction: column;
   justify-content: space-around;
-  height: 600px;
+  height: 569px;
   width: 100%;
   margin: auto;
 }
@@ -736,7 +756,7 @@ main{
 .old-restaurant{
   flex-direction: column;
   justify-content: space-around;
-  height: 600px;
+  height: 569px;
   width: 100%;
   margin-bottom: 50px;
 }
@@ -757,36 +777,7 @@ main{
 #délice{
   width: 100%;
 }
-.new{
-  
-  height: 100px;
-  position: absolute;
-  width: 340px;
-  
-  border-radius: 20px;
-    
-}
-.nouveau{
-  position: absolute;
-  width: 100px;
-  height: 35px;
-  background-color: rgb(108, 217, 180);
-  
-  margin-top: 20px;
-  
-  
-  
-}
-.t-new{
-  
-  color: rgb(26, 26, 26);
-  width: 100px;
-  height: 20px;
-  text-align: center;
-  margin-top: 8px;
-  
 
-}
 #logos-food{
   width: 50%;
   height: 50%;
@@ -796,7 +787,7 @@ main{
 
 
   .footer-bloc{
-    height: 280px;
+    height: 250px;
   }
 .foot-row{
   display: flex;
@@ -855,20 +846,45 @@ main{
 #délice{
   width: 100%;
 }
-.new{
-  
-  height: 100px;
-  position: absolute;
-  width: 90%;
-  
-  border-radius: 20px;
-    
-}
+
 .anime-bloc{
   width: 92%;
-  margin: auto;
+  margin-left: 5%;
 }
 .marging{
   width: 100%;
 }
+.new{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 91%;
+  
+ 
+}
+.nouveau{
+  
+  width: 80%;
+  height: 35px;
+  display: flex;
+  
+}
+.nouveau-droite{
+  display: flex;
+  width: 50%;
+}
+.t-new{ 
+  
+  color: rgb(26, 26, 26);
+  width: 78px;
+  height: 20px;
+  text-align: center;
+  background-color: rgb(108, 217, 180);
+  margin: auto;
+  margin-top: 17px;
+  padding: 5px;
+  
+
+}
+
 }
