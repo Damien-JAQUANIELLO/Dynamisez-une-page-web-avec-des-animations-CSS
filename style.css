@@ -522,7 +522,7 @@ transform: rotate(0deg);
   bottom: 0;
   z-index: 20;
   visibility: hidden;
-  animation: spinner 0s;
+  animation: spinner 2s;
   
 }
 @keyframes spinner {
